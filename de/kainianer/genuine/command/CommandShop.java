@@ -205,10 +205,10 @@ public class CommandShop implements CommandExecutor {
                      * Checking if offer has already been bought or cancelled
                      */
                     if (offer.isAvailable()) {
-//						if(offer.getPlayer().equalsIgnoreCase(player.getName())) {
-//							player.sendMessage("You can't buy your own offers!");
-//							return true;
-//						}
+                        if (offer.getPlayer().equalsIgnoreCase(player.getName())) {
+                            player.sendMessage("You can't buy your own offers!");
+                            return true;
+                        }
 
                         /*
                          * Player has enough money
