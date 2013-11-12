@@ -29,7 +29,8 @@ public class Shop extends JavaPlugin {
     public Permission perms;
     public WorldGuardPlugin wgPlugin;
     public Economy economy;
-
+    public static final String string = "test";
+    
     @Override
     public void onEnable() {
 
