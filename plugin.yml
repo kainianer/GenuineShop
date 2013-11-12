@@ -1,0 +1,9 @@
+name: GenuineShop
+author: kainianer
+version: 1.0 Alpha
+description: Shopsystem like an auctionhouse
+main: de.kainianer.genuine.Shop
+
+commands:
+     shop:
+          description: Grants you access to the shop.

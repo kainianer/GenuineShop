@@ -1,0 +1,8 @@
+settings:
+   maxAuctions: 10
+   createFee: 5
+   sellFee: 15
+   location: auctionhouse
+   bookInRegion: true
+banned:
+   items:
